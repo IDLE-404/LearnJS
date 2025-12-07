@@ -1,5 +1,5 @@
 .container {
-  padding: 14px;
+  padding: 15px ;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -8,7 +8,7 @@
 }
 
 .titleLogo {
-  background: linear-gradient(90deg, #87b1ff, #1b4799);
+  background: radial-gradient(circle, #3a86f6, #87b1ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 32px;

@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./style/Styles.module.css";
-import { Sparkles } from "lucide-react";
+import { Sparkles, ArrowRight } from "lucide-react";
+import Cards from "../cards/Cards";
+import Start from "../start/Start";
 const Wellcome = () => {
   return (
     <div className={styles.container}>
@@ -21,8 +23,15 @@ const Wellcome = () => {
         </p>
       </div>
       <div className={styles.boxBtn}>
-        <button className={styles.activeBtn}>Начать обучение</button>
+        <button className={styles.activeBtn}>
+          Начать обучение <ArrowRight />
+        </button>
         <button className={styles.btn}>Обзор тем</button>
+      </div>
+
+      <div className={styles.container}>
+        <Cards />
+        <Start />
       </div>
     </div>
   );

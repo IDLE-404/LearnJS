@@ -1,0 +1,66 @@
+.container {
+  width: 100%;
+  padding: 20px 0;
+}
+.box {
+  border: solid 1px #214da08f;
+  border-radius: 14px;
+  padding: 20px;
+  background-color: #152a5250;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+}
+.boxInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.title {
+  font-size: 38px;
+  font-weight: 700;
+}
+.text {
+  font-size: 20px;
+  opacity: 0.5;
+}
+.activeBtn {
+  padding: 20px 25px;
+  background: linear-gradient(135deg, #78a7ff, #1b4799);
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  border-radius: 8px;
+  transition: all 0.2s;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+  &:hover {
+    transition: all 0.2s;
+    transform: scale(1.03);
+  }
+}
+.activeBtn::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #78a7ff, #1b4799);
+  inset: 0;
+  z-index: -1;
+  padding: 1px;
+  filter: blur(13px);
+  border-radius: 8px;
+}
