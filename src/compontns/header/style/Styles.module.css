@@ -1,8 +1,8 @@
 .container {
-  padding: 15px ;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 15px;
   background-color: rgba(0, 0, 0, 0.25);
   border-bottom: 1px solid #e5e7eb3d;
 }

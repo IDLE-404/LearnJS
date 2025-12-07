@@ -1,0 +1,28 @@
+.container {
+  padding: 20px 10%;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-top: 1px solid #e5e7eb3d;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: 600;
+}
+
+.info {
+  display: flex;
+  gap: 20px;
+}
+
+.text {
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.text:hover {
+  transition: all 0.2s;
+  color: #007bff;
+}

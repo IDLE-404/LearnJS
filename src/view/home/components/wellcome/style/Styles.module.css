@@ -3,8 +3,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  transform: translateY(15%);
   gap: 20px;
+  position: relative;
+  padding: 95px 0;
 }
 .banner {
   background-color: #122f58ab;
